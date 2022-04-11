@@ -2,15 +2,17 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Bebas Neue', sans;
     line-height: 1.5;
     letter-spacing: .2rem;
 }
 
 body {
-    background-image: url('../img/hand-painted-watercolor-background-with-sky-and-clouds-shape.jpg');
+    background-image: url('../img/logoCarSecurity.jpeg');
     background-attachment: fixed;
-    background-size: cover;
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 div, header, nav, section, footer {
@@ -20,7 +22,7 @@ div, header, nav, section, footer {
 .wrapper {
     background-color: rgba(255, 255, 255, .8);
     max-width: 576px;
-    margin: 20px auto;
+    margin: 10px auto;
     text-align: center;  
     box-shadow: 0px 5px 20px 8px rgba(35, 12, 88, 0.4), 0px 12px 13px 0px rgba(35, 12, 88,1);  
 }
@@ -30,16 +32,15 @@ div, header, nav, section, footer {
 }
 
 .header {
-    background-color: rgba(43, 86, 204, .8);   
-    color: #fff;
+    background-color: rgb(2, 17, 48);   
+    color: #ffffff;
     padding-bottom: 50px;
 }
 
-.header-title {
+.header-title {   
+    font-family: 'Roboto', sans-serif; 
     padding-top: 30px;    
-    text-transform:uppercase;
-    font-size: 1.2em;
-    font-weight: 600;
+    font-size: 3rem;
 }
 
 .header-photo {
@@ -52,13 +53,16 @@ div, header, nav, section, footer {
 }
 
 .header-h2 {
-    font-size: 1.3em;
-    font-weight: 500;
+    font-size: 1.5rem;
+    font-weight: 400;
+
 }
 
 .header p {
+    font-size: 2rem;
     margin: 15px 20px 0;
     font-weight: 400; 
+    color: rgb(254, 202, 47);
 }
 
 .contact {
@@ -72,6 +76,7 @@ div, header, nav, section, footer {
     color: #fff;
     text-transform: uppercase;
     width: 100%;
+    font-size: 1.3rem;
 }
 
 .btn-link i {
@@ -232,21 +237,8 @@ div, header, nav, section, footer {
         width: 90%;
     }
 
-    body {
-        background-image: none;
-    }
-
     .wrapper {
         margin: 0 auto;
-    }
-
-    .bg-header {
-        background-image: url('../img/bg-web.jpeg');        
-        background-size: cover;
-    }
-
-    .header {
-        background-color: rgba(43, 86, 204, .8);
     }
 
     .creditos {
